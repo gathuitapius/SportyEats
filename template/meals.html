@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Listing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+        }
+        .meal {
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: #fff;
+        }
+        .meal img {
+            max-width: 100%;
+            height: auto;
+        }
+         /* Floating button styles */
+        .floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            width: 200px;
+            height: 100px;
+            text-align: center;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            .recommend
+            {
+            position: fixed;
+            bottom: 20px;
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Center horizontally */
+            background-color: transparent;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-left: 120px;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meal Listing</h1>
+    </header>
+    <div class="container">
+        <div class="meal">
+            <img src="/assets/burger.jpg" alt="Meal 1">
+            <h2>Meal 1</h2>
+            <p>Description of Meal 1.</p>
+            <p><strong>Price:</strong> $10.99</p>
+        </div>
+        <!-- Repeat the code block below for each meal -->
+        <div class="meal">
+            <img src="/assets/burger.jpg" alt="Meal 2">
+            <h2>Meal 2</h2>
+            <p>Description of Meal 2.</p>
+            <p><strong>Price:</strong> $12.49</p>
+        </div>
+        <div class="meal">
+            <img src="/assets/burger.jpg" alt="Meal 3">
+            <h2>Meal 3</h2>
+            <p>Description of Meal 3.</p>
+            <p><strong>Price:</strong> $9.95</p>
+        </div>
+        <!-- End of the row -->
+        <!-- Add more meal listings here -->
+        <div class="meal">
+            <img src="/assets/burger.jpg" alt="Meal 4">
+            <h2>Meal 4</h2>
+            <p>Description of Meal 4.</p>
+            <p><strong>Price:</strong> $15.99</p>
+        </div>
+        <!-- Repeat the code block for the next row -->
+                <div class="meal">
+            <img src="/assets/burger.jpg" alt="Meal 4">
+            <h2>Meal 4</h2>
+            <p>Description of Meal 4.</p>
+            <p><strong>Price:</strong> $15.99</p>
+        </div>
+                <div class="meal">
+            <img src="/assets/burger.jpg" alt="Meal 4">
+            <h2>Meal 4</h2>
+            <p>Description of Meal 4.</p>
+            <p><strong>Price:</strong> $15.99</p>
+        </div>
+                <div class="meal">
+            <img src="/assets/burger.jpg" alt="Meal 4">
+            <h2>Meal 4</h2>
+            <p>Description of Meal 4.</p>
+            <p><strong>Price:</strong> $15.99</p>
+        </div>
+                <div class="meal">
+            <img src="/assets/burger.jpg" alt="Meal 4">
+            <h2>Meal 4</h2>
+            <p>Description of Meal 4.</p>
+            <p><strong>Price:</strong> $15.99</p>
+        </div>
+                <div class="meal">
+            <img src="/assets/burger.jpg" alt="Meal 4">
+            <h2>Meal 4</h2>
+            <p>Description of Meal 4.</p>
+            <p><strong>Price:</strong> $15.99</p>
+        </div>
+        <div class="meal">
+            <img src="/assets/burger.jpg" alt="Meal 4">
+            <h2>Meal 4</h2>
+            <p>Description of Meal 4.</p>
+            <p><strong>Price:</strong> $15.99</p>
+        </div>
+        <div class="meal">
+            <img src="/assets/burger.jpg" alt="Meal 4">
+            <h2>Meal 4</h2>
+            <p>Description of Meal 4.</p>
+            <p><strong>Price:</strong> $15.99</p>
+        </div>
+        <div class="meal">
+            <img src="/assets/burger.jpg" alt="Meal 4">
+            <h2>Meal 4</h2>
+            <p>Description of Meal 4.</p>
+            <p><strong>Price:</strong> $15.99</p>
+        </div>
+            <div class="recommend">
+                <button class="floating-button">View Recommended Meals</button>
+            </div>
+    </div>
+
+</body>
+</html>

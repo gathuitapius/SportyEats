@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        /* Add some basic styling to center the form */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 300px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        /* Style the form input fields and button */
+        input {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        /* Style the button on hover */
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Style the link to the login page */
+        .login-link {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <form action="/register" method="post">
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+
+            <label for="fullname"><b>Full Name</b></label>
+            <input type="text" placeholder="Enter Full Name" name="fullname" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter Email" name="email" required>
+
+            <label for="dob"><b>Date of Birth</b></label><br>
+            <input type="dob" placeholder="Enter Date of Birth" name="dob" required><br>
+            <br>
+            <label for="gender"><b>Gender</b></label>
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="password"><b>Enter Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+
+            <label for="confirm_password"><b>Confirm Password</b></label>
+            <input type="confirm_password" placeholder="Confirm Password" name="confirm_password" required>
+            <br>
+            <br>
+            <!-- You can add more fields as needed -->
+
+            <button type="submit">Register</button>
+        </form>
+        <p class="login-link">Already have an account? <a href="" onclick="/login">Login</a></p>
+    </div>
+</body>
+</html>

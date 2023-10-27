@@ -1,0 +1,14 @@
+.{
+    margin: 0;
+    padding: 0;
+    bac-sizing: border-box;
+}
+
+.bg-dark
+{
+background-color: #75767B;
+}
+.nt-50
+{
+margin-top:50px;
+}

@@ -1,0 +1,32 @@
+,Age,Training_Hours_Per_Week,Performance_Score,Preference_For_Vegetables,Preference_For_Protein,Gender,Calories_Required,Nutritious_Meal,Height,Weight,Price_in_Kenya_Shillings,Training_Complexity,Training_Complexity_Range
+0,25,10,85,4,3,Male,2000,Ugali with Beef and Spinach,160,70,300,Intermediate,6
+1,30,15,92,5,4,Female,2200,Grilled Chicken with Quinoa and Broccoli,165,65,350,Advanced,8
+2,35,8,78,3,4,Male,2400,Fish Tacos with Avocado and Mixed Greens,175,75,400,Intermediate,6
+3,28,12,89,4,3,Female,2100,Baked Salmon with Brown Rice and Asparagus,162,60,320,Intermediate,6
+4,22,20,75,3,2,Male,2500,Tofu Stir-Fry with Bok Choy and Brown Rice,170,68,380,Advanced,8
+5,31,9,88,4,3,Female,2050,Chickpea Salad with Kale and Lemon Vinaigrette,163,63,330,Intermediate,6
+6,27,18,90,4,3,Male,2300,Turkey and Vegetable Stir-Fry with Quinoa,168,72,390,Advanced,8
+7,29,11,87,3,4,Female,2150,Grilled Portobello Mushrooms with Couscous and Spinach,166,67,360,Intermediate,6
+8,26,14,86,4,3,Male,2250, Lentil Soup with Whole Wheat Bread and Mixed Greens,164,66,340,Intermediate,6
+9,24,16,80,3,2,Female,2350,Spinach and Feta Stuffed Chicken Breast with Sweet Potatoes,161,59,310,Intermediate,6
+10,32,13,91,5,4,Male,2150,Grilled Shrimp with Brown Rice and Steamed Broccoli,172,73,400,Advanced,8
+11,33,10,84,3,3,Female,2100,Vegetable Curry with Quinoa,167,71,380,Intermediate,6
+12,34,9,85,3,4,Female,2050,Black Bean and Vegetable Burrito Bowl,163,63,330,Intermediate,6
+13,30,15,92,5,4,Male,2200,Salmon Teriyaki with Sushi Rice and Stir-Fried Vegetables,166,67,360,Advanced,8
+14,25,8,78,3,4,Female,2300,Grilled Steak with Roasted Brussels Sprouts and Mashed Potatoes,162,60,320,Intermediate,6
+15,28,12,89,4,3,Male,2400,Spaghetti Squash with Marinara Sauce and Grilled Chicken,170,68,380,Intermediate,6
+16,22,20,75,3,2,Female,2500,Chickpea and Quinoa Stuffed Bell Peppers,165,65,350,Advanced,8
+17,31,9,88,4,3,Male,2050,Spinach and Mushroom Omelette with Whole Wheat Toast,164,66,340,Intermediate,6
+18,27,18,90,4,3,Female,2150,Tofu and Broccoli in Garlic Sauce with Brown Rice,163,63,330,Intermediate,6
+19,29,11,87,3,4,Male,2250,Grilled Vegetable and Hummus Wrap,168,72,390,Intermediate,6
+20,24,16,80,3,2,Male,2300,Bean and Vegetable Chili with Brown Rice,172,73,400,Intermediate,6
+21,33,10,84,3,3,Male,2400,Chicken and Vegetable Fajitas with Whole Wheat Tortillas,163,63,330,Intermediate,6
+22,23,19,79,4,2,Female,2150,Avocado and Black Bean Salad with Lime Vinaigrette,165,65,350,Intermediate,6
+23,34,9,85,3,4,Male,2050,Stuffed Acorn Squash with Quinoa and Cranberries,168,72,390,Intermediate,6
+24,28,12,89,4,3,Male,2300,Grilled Pork Tenderloin with Quinoa and Roasted Brussels Sprouts,164,66,340,Intermediate,6
+25,27,18,90,4,3,Female,2150,Shrimp and Vegetable Skewers with Herbed Quinoa,163,63,330,Intermediate,6
+26,29,11,87,3,4,Male,2300,Butternut Squash and Chickpea Curry with Basmati Rice,162,60,320,Intermediate,6
+27,26,14,86,4,3,Female,2200,Grilled Vegetable and Goat Cheese Sandwich with Mixed Greens,167,71,380,Intermediate,6
+28,24,16,80,3,2,Male,2400,Spinach and Ricotta Stuffed Chicken with Quinoa and Roasted Carrots,169,70,370,Intermediate,6
+29,33,10,84,3,3,Male,2150,Pasta Primavera with Roasted Vegetables and Parmesan Cheese,164,66,340,Intermediate,6
+30,23,19,79,4,2,Female,2350,Quinoa and Black Bean Stuffed Peppers with Salsa,161,59,310,Intermediate,6
